@@ -1,6 +1,7 @@
 import { Linkedin, Github } from 'lucide-react'; 
 import { Link } from 'react-router-dom';
 import { Projethome } from '../component/projethome';
+import { Texte } from '../component/texte';
 
 export default function Home () {
 
@@ -31,9 +32,11 @@ export default function Home () {
             </div>
         </main>
         <section className='max-w-[1170px] mx-auto pt-4'>
-            <h2>Mes projets récents</h2>
-            <div className='flex flex-row gap-8'>
-                <div>
+            <div className='flex justify-center'>
+                <h2>Mes projets récents</h2>
+            </div>
+            <div className='flex flex-row gap-8 justify-center'>
+                <div className=''>
                     <Projethome title={"projet 1"} image={"/silly_cat_2.webp"} alt={"Silly cat"} description={"lorem ipsum"}/>
                 </div>
                 <div>
@@ -46,18 +49,14 @@ export default function Home () {
                 <div className=''>
                     <h2><span className="uppercase">à</span> propos de moi</h2>
                 </div>
-                <div className='flex flew-row items-center justify-center gap-16'>
-                    <div>
-                        <p>Lorem ipsum</p>
-                    </div>
-                    <div>
-                        <p>Lorem Ipsum</p>
-                    </div>
+                <div className='flex flew-row items-center justify-center gap-8'>
+                        <Texte description="Je m'appelle Yrieix Cisterne. J'ai 18 ans. Je suis étudiant en deuxième année de Bachelor Chef de Projets Digitaux. J'étudie à la Normandie Web School de Rouen. Passionné par le numérique, j'ai découvert le code au lycée. J'ai obtenu un Bac général en 2024. Mes spécialités étaient NSI et Mathématiques. J'ai appris Python et SQL au lycée. Ces langages m'ont donné une base solide en programmation."/>
+                        <Texte description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.."/>
                 </div>
 
             </div>
-                <div>
-                    <Link to="/contact" className="bg-red-300 hover:bg-emerald-500 rounded-full p-1 cursor-pointer">Me contacter</Link>
+                <div className='flex justify-center pt-4 pb-4'>
+                    <Link to="/contact" className="bg-[#f78f27] hover:bg-[#278ff7] transition-all duration-500 rounded-full p-1 cursor-pointer">Me contacter</Link>
                 </div>
         </section>
 

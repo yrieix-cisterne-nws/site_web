@@ -17,7 +17,7 @@ export default function Navbar() {
             
             {/* Logo */}
             <div className="shrink-0">
-              <span className="text-2xl font-bold bg-linear-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+              <span className="text-2xl font-bold bg-linear-to-r from-red-400 to-purple-600 bg-clip-text text-transparent">
                 Yrieix
               </span>
             </div>
@@ -32,7 +32,7 @@ export default function Navbar() {
             {/* Boutons (Dark Mode + Menu Burger) */}
             <div className="flex items-center space-x-4">
               {/* Dark mode */}
-              <button
+              {/* <button
                 onClick={toggleTheme}
                 className={`p-2 rounded-lg cursor-pointer ${isDark ? 'bg-gray-800 hover:bg-gray-700' : 'bg-gray-100 hover:bg-gray-200'} transition`}
               >
@@ -41,7 +41,7 @@ export default function Navbar() {
                 ) : (
                   <Moon size={20} className="text-gray-700" />
                 )}
-              </button>
+              </button> */}
 
               {/* Menu burger */}
               <button
