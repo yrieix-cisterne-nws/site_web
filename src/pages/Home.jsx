@@ -7,7 +7,7 @@ export default function Home () {
 
     return(
         <div className="bg-[#FAFAFA]">
-        <main className="max-w-[1170px] mx-auto">
+        <main className="mx-auto">
             <div className="flex flex-col gap-8 items-center justify-center">
                 <div className="pt-4">
                     <img src="funny_cat.jpg" alt="Photo de Yrieix Cisterne" className="rounded-full w-32 sm:w-40 md:w-48 lg:w-56 xl:w-64"/>
@@ -31,7 +31,7 @@ export default function Home () {
                 </div>
             </div>
         </main>
-        <section className='max-w-[1170px] mx-auto pt-4'>
+        <section className='mx-auto pt-4'>
             <div className='flex justify-center'>
                 <h2>Mes projets récents</h2>
             </div>
@@ -44,17 +44,25 @@ export default function Home () {
                 </div>
             </div>
         </section>
-        <section className="max-w-[1170px] mx-auto pt-4">
+        <section className="mx-auto pt-4">
             <div className=''>
-                <div className=''>
+                <div className='flex justify-center'>
                     <h2><span className="uppercase">à</span> propos de moi</h2>
                 </div>
-                <div className='flex flew-row items-center justify-center gap-8'>
+                <div className='bg-[#e8cdb3] rounded-lg max-w-[950px] mx-auto mt-4 p-4'>
+                    <div className='flex flew-row justify-center gap-8'>
                         <Texte description="Je m'appelle Yrieix Cisterne. J'ai 18 ans. Je suis étudiant en deuxième année de Bachelor Chef de Projets Digitaux. J'étudie à la Normandie Web School de Rouen. Passionné par le numérique, j'ai découvert le code au lycée. J'ai obtenu un Bac général en 2024. Mes spécialités étaient NSI et Mathématiques. J'ai appris Python et SQL au lycée. Ces langages m'ont donné une base solide en programmation."/>
-                        <Texte description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.."/>
+                        <img src="/silly_cat_4.webp" alt="Silly cat" className="w-48 rounded-lg"/>
+                    </div>
+                        <div className='flex flex-row justify-center gap-8 pt-4 items-center'>
+                            <img src="/silly_cat_6.jpg" alt="Silly cat" className="w-48 rounded-lg"/>
+                            <Texte description="En rejoignant la Normandie Web School, j'ai approfondi mes compétences en développement web. J'ai appris HTML, CSS, JavaScript, ainsi que des frameworks comme React et MySQL. J'ai également acquis des connaissances en gestion de projets digitaux, UX/UI design et marketing digital. Mon objectif est de devenir un développeur web compétent et polyvalent, capable de créer des sites web performants et attrayants."/>
+                    </div>
                 </div>
-
             </div>
+ 
+
+ 
                 <div className='flex justify-center pt-4 pb-4'>
                     <Link to="/contact" className="bg-[#f78f27] hover:bg-[#278ff7] transition-all duration-500 rounded-full p-1 cursor-pointer">Me contacter</Link>
                 </div>
