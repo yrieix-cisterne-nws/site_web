@@ -17,7 +17,7 @@ export default function Navbar() {
             
             {/* Logo */}
             <div className="shrink-0">
-              <span className="text-2xl font-bold bg-linear-to-r from-red-400 to-purple-600 bg-clip-text text-transparent">
+              <span className="text-2xl font-bold bg-linear-to-r from-[#8487BF] to-purple-600 bg-clip-text text-transparent">
                 Yrieix
               </span>
             </div>

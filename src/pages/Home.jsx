@@ -24,10 +24,10 @@ export default function Home () {
 
             <div className="flex flex-row gap-8 justify-center pt-4">
                 <div>
-                    <a href=""><button className="bg-[#f78f27] hover:bg-[#278ff7] transition-all duration-500 rounded-full p-1 cursor-pointer">Mon CV</button></a>
+                    <a href=""><button className="bg-[#F2CC0F] hover:bg-[#8487BF] transition-all duration-500 rounded-full p-1 cursor-pointer">Mon CV</button></a>
                 </div>
-                <div>
-                    <Link to="/projet" className="bg-[#f78f27] hover:bg-[#278ff7] transition-all duration-500 rounded-full p-1 cursor-pointer">Projets</Link>
+                <div className='pt-1'>
+                    <Link to="/projet" className="bg-[#F2CC0F] hover:bg-[#8487BF] transition-all duration-500 rounded-full p-1 cursor-pointer">Projets</Link>
                 </div>
             </div>
         </main>
@@ -64,7 +64,7 @@ export default function Home () {
 
  
                 <div className='flex justify-center pt-4 pb-4'>
-                    <Link to="/contact" className="bg-[#f78f27] hover:bg-[#278ff7] transition-all duration-500 rounded-full p-1 cursor-pointer">Me contacter</Link>
+                    <Link to="/contact" className="bg-[#F2CC0F] hover:bg-[#8487BF] transition-all duration-500 rounded-full p-1 cursor-pointer">Me contacter</Link>
                 </div>
         </section>
 

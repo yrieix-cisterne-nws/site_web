@@ -6,19 +6,20 @@ import Navbar from "./component/header";
 import Projet from "./pages/Projet";
 import Contact from "./pages/Contact";
 import Footer from "./component/footer";
+import Layout from "./component/layout";
 
 
 function App() {
   return (
     <Router>
       <ScrollToTop/>
-      <Navbar/>
+      <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projet" element={<Projet />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer/>
+      </Layout>
     </Router>
   );
 };
