@@ -10,7 +10,7 @@ export default function Home () {
         <main className="mx-auto">
             <div className="flex flex-col gap-8 items-center justify-center">
                 <div className="pt-4">
-                    <img src="funny_cat.jpg" alt="Photo de Yrieix Cisterne" className="rounded-full w-32 sm:w-40 md:w-48 lg:w-56 xl:w-64"/>
+                    <img src="photo_presentation.jpg" alt="Photo de Yrieix Cisterne" className="rounded-full w-32 sm:w-40 md:w-48 lg:w-56 xl:w-64"/>
                 </div>
                 <div className="flex flex-row gap-8">
                 <a href="https://www.linkedin.com/in/yrieix-cisterne-96963b332/" target="_blank" rel="noopener noreferrer"><Linkedin size={24}/></a>
@@ -24,7 +24,7 @@ export default function Home () {
 
             <div className="flex flex-row gap-8 justify-center pt-4">
                 <div>
-                    <a href=""><button className="bg-[#F2CC0F] hover:bg-[#8487BF] transition-all duration-500 rounded-full p-1 cursor-pointer">Mon CV</button></a>
+                    <a href="/CV_Cisterne_Yrieix.pdf" download={"Cisterne_Yrieix_CV"}><button className="bg-[#F2CC0F] hover:bg-[#8487BF] transition-all duration-500 rounded-full p-1 cursor-pointer">Mon CV</button></a>
                 </div>
                 <div className='pt-1'>
                     <Link to="/projet" className="bg-[#F2CC0F] hover:bg-[#8487BF] transition-all duration-500 rounded-full p-1 cursor-pointer">Projets</Link>
