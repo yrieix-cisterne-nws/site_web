@@ -1,22 +1,72 @@
 [
     {
-        "id": 1,
-        "title": "Maquette HTML lodge",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "id": 7,
+        "title": "Maquette du site web",
+        "description": "Dans le but de créer un portfolio, j'ai dû créer une maquette de mon site web, voici les couleurs utilisées : #2E2E2E (Header et Footer), #D1D5DB (Background), #374151 (Repère de navigation), #FFFFFF et #E5E7EB (Bloc de contenu). Pour le corps de texte, j'utilise Roboto et pour les titres Roboto Mono.",
+        "link": "/projet/Maquette.zip",
+        "linktext": "Maquette site web",
+        "image": "/projet/maquettepc.png",
+        "altImage": "Maquette du site web",
+        "visible": true
+    },
+    {
+        "id": 6,
+        "title": "Refonte du site web de Handisup",
+        "description": "Dans le cadre de ce projet, nous avons été mis en relation avec Handisup pour améliorer leur site web. Nous avons dû respecter certaines contraintes imposées par Handisup.",
         "link": "",
-        "linktext": "lien",
-        "image": "/silly_cat_2.webp",
-        "altImage":"lorem",
+        "linktext": "",
+        "image": "/projet/handisup_actu.png",
+        "altImage": "Page d'accueil du site Handisup",
+        "visible": true
+    },
+    {
+        "id": 5,
+        "title": "Intégration d'une maquette Figma",
+        "description": "Dans ce projet, j'ai reproduit une maquette provenant de Figma. En HTML et CSS. J'ai appris l'importance des 'div' pour structure une page web.",
+        "link": "",
+        "linktext": "",
+        "image": "/projet/maquettefigma.png",
+        "altImage":"Maquette Figma",
+        "visible": true
+    },
+    {
+        "id": 4,
+        "title": "Normandie Blog School",
+        "description": "Ce projet a été réalisé à la Normandie Web School (NWS) en équipe avec d'autres élèves de la NWS comme des développeurs web et des Graphistes, nous avons décidé de partie sur un blog d'entraide entre personne de l'école.",
+        "link": "https://nino-rameau.github.io/normandie-blog-school/index.html",
+        "linktext": "Vous pouvez consultez le site ici.",
+        "image": "/projet/normandiebs.png",
+        "altImage":"Page Accueil Normandie Blog School",
+        "visible": true
+    },
+    {
+        "id": 3,
+        "title": "Club Eco St.Sever",
+        "description": "Dans le cadre de ce projet, qui a été réalisé par la suite de la sollicitation du Club Eco St.Sever, nous avons dû en équipe réaliser un diaporama pour présenter nos idées au Club Eco St.Sever comme un nouveau logo pour le club et une nouvelle direction artistique",
+        "link": "",
+        "linktext": "",
+        "image": "/projet/clubeco.png",
+        "altImage":"Logo pour club eco St.Sever",
         "visible": true
     },
     {
         "id": 2,
-        "title": "Création d'une maquette Figma",
-        "description": "Lorem2 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "title": "Logo personel",
+        "description": "Dans le but de définir mon identité sur le web, j'ai conçu ce logo pour mon portfolio et d'autres créations, ce logo comprend mes initiales pour mon prénom et mon nom, j'ai voulu en faire un logo chic et élégant. En cliquant sur le logo, vous pourrez voir la charte graphique pour mon logo.",
         "link": "",
-        "linktext": "lien2",
-        "image": "/silly_cat_2.webp",
-        "altImage":"lorem2",
+        "linktext": "",
+        "image": "/projet/logoycbw.jpg",
+        "altImage":"Mon logo personnel",
+        "visible": true
+    },
+    {
+        "id": 1,
+        "title": "Projet Dés",
+        "description": "J'ai réalisé ce projet en 2023 à l'aide de Python, il a été réalisé pendant mon année de première. Ce projet m'a permis de découvrir comment utiliser la librairie 'Turtle'. Tout le code est déposé sur mon Github.",
+        "link": "https://github.com/modzarlino/de",
+        "linktext": "Vous pouvez voir le résultat sur mon Github.",
+        "image": "/projet/des.png",
+        "altImage":"Dés produit aléatoirement",
         "visible": true
     }
 

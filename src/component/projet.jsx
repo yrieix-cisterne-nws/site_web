@@ -7,7 +7,7 @@ export const Projet_image = ({index, id, title, image, alt, description, link, l
                         <p>{description}</p>
                     <div>
                         {link ? (
-                            <a href={link} className="text-blue-500 underline" rel="noopener noreferrer">{linktext}</a>
+                            <a href={link} className="text-blue-500 underline" rel="noopener noreferrer" target="_blank">{linktext}</a>
                         ) : null}
                     </div>
                 </div>
