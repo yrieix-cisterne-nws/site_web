@@ -1,16 +1,120 @@
-# React + Vite
+# Portfolio – Yrieix Cisterne
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur mon portfolio personnel ! Ce site web présente mon parcours, mes compétences et mes projets.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sommaire
 
-## React Compiler
+1. [Présentation](#présentation)
+2. [Fonctionnalités et pages](#fonctionnalités-et-pages)
+3. [Technologies et outils](#technologies-et-outils)
+4. [Installation et configuration](#installation-et-configuration)
+   - [Pré-requis](#pré-requis)
+   - [Installation du projet](#installation-du-projet)
+   - [Lancement en développement](#lancement-en-développement)
+   - [Compilation pour la production](#compilation-pour-la-production)
+5. [Déploiement](#déploiement)
+6. [Auteur](#auteur)
+7. [Licence](#licence)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Présentation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ce portfolio a été conçu pour mettre en avant mon profil, mes expériences et mes réalisations. Il propose une navigation fluide entre différentes sections : Home, Projets et Contact.
+
+---
+
+## Fonctionnalités et pages
+
+- **Accueil** : Introduction, présentation rapide et accès aux principales rubriques.
+- **Projets** : Galerie de projets réalisés (sites web, maquettes, logos, etc.) avec carrousel interactif.
+- **Contact** : Formulaire de contact sécurisé (EmailJS)
+- **Mentions légales** : Informations légales du site.
+
+---
+
+## Technologies et outils
+
+- **React** : Framework principal pour la construction de l’interface.
+- **TailwindCSS** : Framework CSS utilitaire pour un design moderne et responsive.
+- **React Router DOM** : Navigation entre les pages.
+- **Swiper** : Carrousel pour la section projets.
+- **EmailJS** : Envoi d’emails via le formulaire de contact.
+
+---
+
+## Installation et configuration
+
+### Pré-requis
+
+- [Node.js](https://nodejs.org/) (version 18 ou supérieure recommandée)
+- [npm](https://www.npmjs.com/) (fourni avec Node.js)
+- Un terminal (cmd, PowerShell, ou terminal intégré VS Code)
+
+### Installation du projet
+
+1. **Cloner le dépôt :**
+   ```sh
+   git clone https://github.com/yrieix-cisterne-nws/site_web.git
+   cd creerrunnextjs
+   ```
+
+2. **Installer les dépendances :**
+   ```sh
+   npm install
+   ```
+
+   Cela installera toutes les librairies nécessaires, dont :
+   - react
+   - react-dom
+   - react-router-dom
+   - tailwindcss
+   - swiper
+   - emailjs-com
+   - etc.
+
+3. **Configurer Tailwind CSS (si besoin) :**
+   - Le fichier `tailwind.config.js` est déjà prêt, mais vous pouvez l’adapter à vos besoins.
+
+4. **Configurer EmailJS :**
+   - Renseignez vos clés API dans les fichiers concernés (`.env` ou directement dans le code selon votre organisation).
+
+### Lancement en développement
+
+```sh
+npm start
+```
+Le site sera accessible sur [http://localhost:3000](http://localhost:3000).
+
+### Compilation pour la production
+
+```sh
+npm run build
+```
+Les fichiers optimisés seront générés dans le dossier `build/`.
+
+---
+
+## Déploiement
+
+
+Le site est en ligne : [yrieix-cisterne.fr](https://yrieix-cisterne.fr)
+
+---
+
+## Auteur
+
+**Yrieix Cisterne**  
+Étudiant à la Normandie Web School 
+
+- [LinkedIn](https://www.linkedin.com/in/yrieix-cisterne)
+- [GitHub](https://github.com/yrieix-cisterne-nws)
+
+---
+
+## Licence
+
+Projet réalisé dans le cadre de ma formation et enrichi régulièrement.  
+Toute reproduction ou utilisation doit mentionner l’auteur.

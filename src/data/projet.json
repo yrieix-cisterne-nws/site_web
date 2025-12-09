@@ -1,8 +1,49 @@
 [
     {
+        "id": 12,
+        "title": "Overwatch Guesser",
+        "description": "Projet personnel mis à jour, un guesser sur le jeu 'Overwatch 2' inspiré du jeu Who is that Pokemon. J'ai pour objectif de le mettre à jour et de rajouter un autre guesser quand j'aurais accès a une API qui me permettra de le faire.",
+        "link": "https://github.com/yrieix-cisterne-nws/owguesser",
+        "linktext": "Vous pouvez voir le résultat sur mon github",
+        "image": "/projet/owguesser.png",
+        "altImage": "Image de OWGuesser",
+        "visible": true
+    },
+    {
+        "id": 11,
+        "title": "To-do list",
+        "description": "Projet d’abord réalisé dans le cadre d’une évaluation, il s’est ensuite transformé en un véritable projet personnel que j’ai continué à développer et approfondir.",
+        "link": "https://yrieix-cisterne-nws.github.io/Evaluation_todo_list/",
+        "linktext": "Vous pouvez voir le résultat sur mon github",
+        "image": "/projet/todolist.png",
+        "altImage": "Timer fin de s17",
+        "visible": true
+    },
+    {
+        "id": 10,
+        "title": "Timer fin de saison",
+        "description": "Petit projet que je fait chaque saison d'overwatch, je prend un splashart et ajoute un timer par dessus, quelque chose de simple et rapide à faire, mais qui n'a pas besoin de modification de code.",
+        "link": "https://github.com/yrieix-cisterne-nws/bot",
+        "linktext": "Vous pouvez voir le résultat sur mon github",
+        "image": "/projet/s17timer.png",
+        "altImage": "Timer fin de s17",
+        "visible": true
+    },
+
+    {
+        "id": 8,
+        "title": "Ancien site web",
+        "description": "Avant d’arriver à mon portfolio actuel, j’ai réalisé plusieurs versions de mon site. Ce premier véritable projet m’a permis d’expérimenter avec HTML, CSS puis React, avant de prendre la décision de repartir de zéro pour créer une version plus moderne et mieux structurée.",
+        "link": "https://github.com/yrieix-cisterne-nws/creerunnextjs",
+        "linktext": "Vous pouvez voir le code de mon ancien site web sur github",
+        "image": "/projet/sitewebv1.png",
+        "altImage": "Page d'accueil ancien site web",
+        "visible": true
+    },
+    {
         "id": 7,
-        "title": "Maquette du site web",
-        "description": "Dans le but de créer un portfolio, j'ai dû créer une maquette de mon site web, voici les couleurs utilisées : #2E2E2E (Header et Footer), #D1D5DB (Background), #374151 (Repère de navigation), #FFFFFF et #E5E7EB (Bloc de contenu). Pour le corps de texte, j'utilise Roboto et pour les titres Roboto Mono.",
+        "title": "Maquette de l'ancien site web",
+        "description": "Sur mon ancien portfolio, j'ai dû créer une maquette de mon site web, voici les couleurs utilisées : #2E2E2E (Header et Footer), #D1D5DB (Background), #374151 (Repère de navigation), #FFFFFF et #E5E7EB (Bloc de contenu). Pour le corps de texte, j'utilisais Roboto et pour les titres Roboto Mono.",
         "link": "/projet/Maquette.zip",
         "linktext": "Maquette site web",
         "image": "/projet/maquettepc.png",
@@ -52,7 +93,7 @@
     {
         "id": 2,
         "title": "Logo personel",
-        "description": "Dans le but de définir mon identité sur le web, j'ai conçu ce logo pour mon portfolio et d'autres créations, ce logo comprend mes initiales pour mon prénom et mon nom, j'ai voulu en faire un logo chic et élégant. En cliquant sur le logo, vous pourrez voir la charte graphique pour mon logo.",
+        "description": "Dans le but de définir mon identité sur le web, j'ai conçu ce logo pour mon portfolio et d'autres créations, ce logo comprend mes initiales pour mon prénom et mon nom, j'ai voulu en faire un logo chic et élégant.",
         "link": "",
         "linktext": "",
         "image": "/projet/logoycbw.jpg",
