@@ -10,5 +10,4 @@ RUN npm run build
 
 # Étape 2 : Serveur Nginx
 FROM nginx:alpine
-COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/dist /usr/share/nginx/html
