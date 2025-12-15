@@ -3,8 +3,8 @@
         "id": 12,
         "title": "Overwatch Guesser",
         "description": "Projet personnel mis à jour, un guesser sur le jeu 'Overwatch 2' inspiré du jeu Who is that Pokemon. J'ai pour objectif de le mettre à jour et de rajouter un autre guesser quand j'aurais accès a une API qui me permettra de le faire.",
-        "link": "https://github.com/yrieix-cisterne-nws/owguesser",
-        "linktext": "Vous pouvez voir le résultat sur mon github",
+        "link": "https://owguesser.yrieix-cisterne.fr/",
+        "linktext": "Site web en ligne à l'aide de docker",
         "image": "/projet/owguesser.png",
         "altImage": "Image de OWGuesser",
         "visible": true

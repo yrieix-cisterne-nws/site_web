@@ -36,11 +36,11 @@ export default function Home () {
                 <h2>Mes projets récents</h2>
             </div>
             <div className='flex flex-row gap-8 justify-center'>
-                <div className=''>
-                    <Projethome title={"projet 1"} image={"/silly_cat_2.webp"} alt={"Silly cat"} description={"lorem ipsum"}/>
+                <div className='max-w-[550px]'>
+                    <Projethome title={"OWGuesser"} image={"/projet/owguesser.png"} alt={"OWGuesser"} description={"Side project, petit mini jeu"} link={"https://owguesser.yrieix-cisterne.fr/"} linktext={"Vous pouvez voir le site ici"}/>
                 </div>
                 <div>
-                    <Projethome title={"projet 2"} image={"/silly_cat_3.jpg"} alt={"Silly cat"} description={"lorem ipsum"}/>
+                    <Projethome title={"To do list"} image={"/projet/todolist.png"} alt={"To do list"} description={"Projet réalisé pour l'école."} link={"https://yrieix-cisterne-nws.github.io/Evaluation_todo_list/"} linktext={"Vous pouvez voir le github ici"}/> 
                 </div>
             </div>
         </section>
@@ -49,13 +49,13 @@ export default function Home () {
                 <div className='flex justify-center'>
                     <h2><span className="uppercase">à</span> propos de moi</h2>
                 </div>
-                <div className='bg-[#e8cdb3] rounded-lg max-w-[950px] mx-auto mt-4 p-4'>
+                <div className='bg-[#e8cdb3] rounded-lg max-w-[1170px] mx-auto mt-4 p-4'>
                     <div className='flex flew-row justify-center gap-8'>
                         <Texte description="Je m'appelle Yrieix Cisterne. J'ai 18 ans. Je suis étudiant en deuxième année de Bachelor Chef de Projets Digitaux. J'étudie à la Normandie Web School de Rouen. Passionné par le numérique, j'ai découvert le code au lycée. J'ai obtenu un Bac général en 2024. Mes spécialités étaient NSI et Mathématiques. J'ai appris Python et SQL au lycée. Ces langages m'ont donné une base solide en programmation."/>
-                        <img src="/silly_cat_4.webp" alt="Silly cat" className="w-48 rounded-lg"/>
+                        <img src="/stock_image/avatar.jpg" alt="Silly cat" className="w-48 rounded-lg"/>
                     </div>
                         <div className='flex flex-row justify-center gap-8 pt-4 items-center'>
-                            <img src="/silly_cat_6.jpg" alt="Silly cat" className="w-48 rounded-lg"/>
+                            <img src="/stock_image/dev_web.jpg" alt="Silly cat" className="w-72 rounded-lg"/>
                             <Texte description="En rejoignant la Normandie Web School, j'ai approfondi mes compétences en développement web. J'ai appris HTML, CSS, JavaScript, ainsi que des frameworks comme React et MySQL. J'ai également acquis des connaissances en gestion de projets digitaux, UX/UI design et marketing digital. Mon objectif est de devenir un développeur web compétent et polyvalent, capable de créer des sites web performants et attrayants."/>
                     </div>
                 </div>

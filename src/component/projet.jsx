@@ -11,7 +11,7 @@ export const Projet_image = ({index, id, title, image, alt, description, link, l
                         ) : null}
                     </div>
                 </div>
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center max-h-[450px] overflow-auto">
                     <img src={image} alt={alt} className="max-w-[450px]"/>
                 </div>
             </div>
