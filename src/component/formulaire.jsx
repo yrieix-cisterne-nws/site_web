@@ -27,7 +27,7 @@ export const ContactUs = () => {
 
   return (
     <div className='flex flex-col gap-4'>
-    <h1>Formulaire de contact</h1>
+    <h1 className='text-3xl'>Formulaire de contact</h1>
     <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-2 rounded-lg w-full max-w-[550px]'>
       <input type="text" name="user_name" placeholder='Prénom et nom' required className='bg-gray-200 w-[300px] '/>
       <input type="email" name="user_email" placeholder='Email' required className='bg-gray-200 w-[300px]'/>

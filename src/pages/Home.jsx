@@ -17,7 +17,7 @@ export default function Home () {
                 <a href="https://github.com/yrieix-cisterne-nws" target="_blank" rel="noopener noreferrer"><Github size={24}/></a>
             </div>
                 <div className='flex flex-col justify-center items-center'>
-                    <h1>Yrieix Cisterne</h1>
+                    <h1 className='text-3xl'>Yrieix Cisterne</h1>
                     <p>Développeur web</p>
                 </div>
             </div>
@@ -33,7 +33,7 @@ export default function Home () {
         </main>
         <section className='mx-auto pt-4'>
             <div className='flex justify-center'>
-                <h2>Mes projets récents</h2>
+                <h2 className='text-xl'>Mes projets récents</h2>
             </div>
             <div className='flex flex-col sm:flex-row gap-8 justify-center mt-4 p-4 mx-4'>
                 <div className='max-w-[550px]'>
@@ -47,7 +47,7 @@ export default function Home () {
         <section className="mx-auto pt-4">
             <div className=''>
                 <div className='flex justify-center'>
-                    <h2><span className="uppercase">à</span> propos de moi</h2>
+                    <h2 className='text-xl'><span className="uppercase">à</span> propos de moi</h2>
                 </div>
                     <div className='bg-[#e8cdb3] rounded-lg max-w-[1170px] mt-4 p-4 mx-4'>
                         <div className='flex flex-col sm:flex-row items-center justify-center gap-8'>

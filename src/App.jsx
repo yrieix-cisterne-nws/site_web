@@ -5,6 +5,7 @@ import './index.css';
 import Projet from "./pages/Projet";
 import Contact from "./pages/Contact";
 import Layout from "./component/layout";
+import Mentions from "./pages/Mentions";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projet" element={<Projet />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/mentions-legales" element={<Mentions />} />
         </Routes>
       </Layout>
     </Router>
