@@ -60,9 +60,6 @@ export default function Home () {
                         </div>
                     </div>
             </div>
- 
-
- 
                 <div className='flex justify-center pt-4 pb-4'>
                     <Link to="/contact" className="bg-[#F2CC0F] hover:bg-[#8487BF] transition-all duration-500 rounded-full p-1 cursor-pointer">Me contacter</Link>
                 </div>
