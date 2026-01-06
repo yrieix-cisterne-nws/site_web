@@ -31,19 +31,6 @@ export default function Navbar() {
 
             {/* Boutons (Dark Mode + Menu Burger) */}
             <div className="flex items-center space-x-4">
-              {/* Dark mode */}
-              {/* <button
-                onClick={toggleTheme}
-                className={`p-2 rounded-lg cursor-pointer ${isDark ? 'bg-gray-800 hover:bg-gray-700' : 'bg-gray-100 hover:bg-gray-200'} transition`}
-              >
-                {isDark ? (
-                  <Sun size={20} className="text-yellow-400" />
-                ) : (
-                  <Moon size={20} className="text-gray-700" />
-                )}
-              </button> */}
-
-              {/* Menu burger */}
               <button
                 onClick={toggleMenu}
                 className="md:hidden p-2"

@@ -51,7 +51,7 @@ export default function Home () {
                 </div>
                     <div className='bg-[#e8cdb3] rounded-lg max-w-[1170px] mt-4 p-4 mx-4'>
                         <div className='flex flex-col sm:flex-row items-center justify-center gap-8'>
-                            <Texte description="Je m'appelle Yrieix Cisterne. J'ai 18 ans. Je suis étudiant en deuxième année de Bachelor Chef de Projets Digitaux. J'étudie à la Normandie Web School de Rouen. Passionné par le numérique, j'ai découvert le code au lycée. J'ai obtenu un Bac général en 2024. Mes spécialités étaient NSI et Mathématiques. J'ai appris Python et SQL au lycée. Ces langages m'ont donné une base solide en programmation."/>
+                            <Texte description="Je m'appelle Yrieix Cisterne. J'ai 19 ans. Je suis étudiant en deuxième année de Bachelor Chef de Projets Digitaux. J'étudie à la Normandie Web School de Rouen. Passionné par le numérique, j'ai découvert le code au lycée. J'ai obtenu un Bac général en 2024. Mes spécialités étaient NSI et Mathématiques. J'ai appris Python et SQL au lycée. Ces langages m'ont donné une base solide en programmation."/>
                             <img src="/stock_image/avatar.jpg" alt="NWS logo" className="w-48 rounded-lg"/>
                         </div>
                         <div className='flex flex-col sm:flex-row-reverse justify-center gap-8 pt-4 items-center'>
