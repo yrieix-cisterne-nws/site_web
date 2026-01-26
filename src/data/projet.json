@@ -1,5 +1,25 @@
 [
     {
+        "id": 14,
+        "title": "API REST NodeJS évaluation",
+        "description": "Conçue pour gérer des données de manière simple et efficace, Evaluer sur l'ajout de fonctionnalité.",
+        "link": "https://github.com/yrieix-cisterne-nws/eval_nodeJS",
+        "linktext": "Vous pouvez voir le résultat sur mon Github",
+        "image": "/projet/eval_js.png",
+        "altImage":"Méthode get API",
+        "visible": true
+    },
+    {
+        "id": 13,
+        "title": "API REST NodeJS",
+        "description": "Conçue pour gérer des données de manière simple et efficace, tout en intégrant les bonnes pratiques de sécurité et de validation.",
+        "link": "https://github.com/yrieix-cisterne-nws/cours_JS",
+        "linktext": "Vous pouvez voir le résultat sur mon Github",
+        "image": "/projet/cours_js.png",
+        "altImage":"Méthode get API",
+        "visible": true
+    },
+    {
         "id": 12,
         "title": "Overwatch Guesser",
         "description": "Projet personnel mis à jour, un guesser sur le jeu 'Overwatch 2' inspiré du jeu Who is that Pokemon. J'ai pour objectif de le mettre à jour et de rajouter un autre guesser quand j'aurais accès a une API qui me permettra de le faire.",
@@ -14,7 +34,7 @@
         "title": "To-do list",
         "description": "Projet d’abord réalisé dans le cadre d’une évaluation, il s’est ensuite transformé en un véritable projet personnel que j’ai continué à développer et approfondir.",
         "link": "https://yrieix-cisterne-nws.github.io/Evaluation_todo_list/",
-        "linktext": "Vous pouvez voir le résultat sur mon github",
+        "linktext": "Vous pouvez voir le résultat sur mon Github",
         "image": "/projet/todolist.png",
         "altImage": "Timer fin de s17",
         "visible": true

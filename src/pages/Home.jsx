@@ -37,10 +37,10 @@ export default function Home () {
             </div>
             <div className='flex flex-col sm:flex-row gap-8 justify-center mt-4 p-4 mx-4'>
                 <div className='max-w-[550px]'>
-                    <Projethome title={"OWGuesser"} image={"/projet/owguesser.png"} alt={"OWGuesser"} description={"Side project, petit mini jeu"} link={"https://owguesser.yrieix-cisterne.fr/"} linktext={"Vous pouvez voir le site ici"}/>
+                    <Projethome title={"API REST NodeJS"} image={"/projet/cours_js.png"} alt={"méthode get API"} description={"Cours réalisé à l'école sur Node.js"} link={"https://github.com/yrieix-cisterne-nws/cours_JS"} linktext={"Vous pouvez voir le repo Github"}/>
                 </div>
                 <div>
-                    <Projethome title={"To do list"} image={"/projet/todolist.png"} alt={"To do list"} description={"Projet réalisé pour l'école."} link={"https://yrieix-cisterne-nws.github.io/Evaluation_todo_list/"} linktext={"Vous pouvez voir le github ici"}/> 
+                    <Projethome title={"OWGuesser"} image={"/projet/owguesser.png"} alt={"OWGuesser"} description={"Side project, petit mini jeu"} link={"https://owguesser.yrieix-cisterne.fr/"} linktext={"Vous pouvez voir le site ici"}/>
                 </div>
             </div>
         </section>
