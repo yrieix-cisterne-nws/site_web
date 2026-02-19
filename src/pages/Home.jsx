@@ -2,10 +2,18 @@ import { Linkedin, Github } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Projethome } from '../component/projethome';
 import { Texte } from '../component/texte';
+import SEO from '../component/seo';
 
 export default function Home () {
 
     return(
+        <>
+        <SEO 
+            title="Accueil | Yrieix Cisterne"
+            description="Développeur web spécialisé en React et Tailwind CSS. Je crée des sites modernes, rapides et optimisés SEO avec une expérience utilisateur soignée."
+            keywords="Yrieix Cisterne, Développeur web, Développeur React, Portfolio développeur web, Création site web moderne, Développement d’applications web, API REST, Git / GitHub, Performance web, Optimisation SEO"
+            canonical="https://yrieix-cisterne.fr"
+            />
         <div className="bg-[#FAFAFA]">
         <main className="mx-auto">
             <div className="flex flex-col gap-8 items-center justify-center">
@@ -66,6 +74,7 @@ export default function Home () {
         </section>
 
         </div>
+        </>
     )
 }
 

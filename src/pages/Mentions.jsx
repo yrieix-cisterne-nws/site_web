@@ -1,14 +1,23 @@
+import SEO from "../component/seo";
+
 export default function Mentions () {
   return (
+    <>
+        <SEO 
+            title="Mentions Legales | Yrieix Cisterne"
+            description="Retrouvez toutes les informations légales relatives au site : éditeur, hébergeur, propriété intellectuelle, protection des données et conformité au RGPD."
+            keywords="Yrieix Cisterne, Développeur web, Développeur React, Mentions légales, Informations légales site web, Éditeur du site, Hébergement du site, Conditions d’utilisation, Propriété intellectuelle, RGPD, Sécurité des données"
+            canonical="https://yrieix-cisterne.fr/mentions-legales"
+          />
     <div>
       <main className="max-w-[850px] mx-auto rounded-lg p-4 md:p-5 bg-[#e8cdb3] mt-4 mb-4 m-4">
         <h1 className="sr-only">Mentions légales</h1>
         <section>
           <div className="mb-2">
             <h2 className="text-xl">1. Éditeur du site</h2>
-            <p>Nom : </p>
+            <p>Nom : Yrieix Cisterne</p>
             <p>Statut : Étudiant en Bachelor de Chefs de Projets Digitaux</p>
-            <p>Adresse mail : </p>
+            <p>Adresse mail : ycisterne@normandiewebschool.fr</p>
           </div>
 
           <div className="mb-2">
@@ -47,5 +56,6 @@ export default function Mentions () {
         </section>
       </main>
     </div>
+    </>
   );
 };
