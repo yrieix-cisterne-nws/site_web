@@ -2,7 +2,7 @@
     {
         "id": 15,
         "title": "UI/UX Site web",
-        "description":"Dans le cadre de l'école, j'ai du créer un site web pour vendre un produit à base de miel, réalisé sur Wordpress, j'ai donc chercher à faire une UI/UX de qualité.",
+        "description":"Dans le cadre de l'école, j'ai dû créer un site web pour vendre un produit à base de miel, réalisé sur WordPress, j'ai donc cherché à faire une UI/UX de qualité.",
         "image":"/projet/mieloria.png",
         "altimage":"Site Wordpress Mieloria",
         "visible": true
