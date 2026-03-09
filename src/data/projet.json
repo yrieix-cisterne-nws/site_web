@@ -1,5 +1,13 @@
 [
     {
+        "id": 15,
+        "title": "UI/UX Site web",
+        "description":"Dans le cadre de l'école, j'ai du créer un site web pour vendre un produit à base de miel, réalisé sur Wordpress, j'ai donc chercher à faire une UI/UX de qualité.",
+        "image":"/projet/mieloria.png",
+        "altimage":"Site Wordpress Mieloria",
+        "visible": true
+    },
+    {
         "id": 14,
         "title": "API REST NodeJS évaluation",
         "description": "Conçue pour gérer des données de manière simple et efficace, Evaluer sur l'ajout de fonctionnalité.",
