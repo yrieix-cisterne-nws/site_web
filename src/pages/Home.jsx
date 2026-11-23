@@ -18,7 +18,7 @@ export default function Home () {
         <main className="mx-auto">
             <div className="flex flex-col gap-8 items-center justify-center">
                 <div className="pt-4">
-                    <img src="/photo_presentation.webp" alt="Photo de Yrieix Cisterne" className="rounded-full w-32 sm:w-40 md:w-48 lg:w-56 xl:w-64"/>
+                    <img src="/photo_presentation.webp" alt="Photo de Yrieix Cisterne" width={512} height={682} loading="eager" className="rounded-full w-32 sm:w-40 md:w-48 lg:w-56 xl:w-64"/>
                 </div>
                 <div className="flex flex-row gap-8">
                 <a href="https://www.linkedin.com/in/yrieix-cisterne-96963b332/" target="_blank" rel="noopener noreferrer"><Linkedin size={24}/></a>
@@ -45,10 +45,10 @@ export default function Home () {
             </div>
             <div className='flex flex-col sm:flex-row gap-8 justify-center mt-4 p-4 mx-4'>
                 <div className='max-w-[550px]'>
-                    <Projethome title={"API REST NodeJS"} image={"/projet/cours_js.webp"} alt={"méthode get API"} description={"Cours réalisé à l'école sur Node.js"} link={"https://github.com/yrieix-cisterne-nws/cours_JS"} linktext={"Vous pouvez voir le repo Github"}/>
+                    <Projethome title={"API REST NodeJS"} image={"/projet/cours_js.webp"} width={900} height={497} alt={"méthode get API"} description={"Cours réalisé à l'école sur Node.js"} link={"https://github.com/yrieix-cisterne-nws/cours_JS"} linktext={"Vous pouvez voir le repo Github"}/>
                 </div>
                 <div>
-                    <Projethome title={"OWGuesser"} image={"/projet/owguesser.webp"} alt={"OWGuesser"} description={"Side project, petit mini jeu"} link={"https://owguesser.yrieix-cisterne.fr/"} linktext={"Vous pouvez voir le site ici"}/>
+                    <Projethome title={"OWGuesser"} image={"/projet/owguesser.webp"} width={900} height={427} alt={"OWGuesser"} description={"Side project, petit mini jeu"} link={"https://owguesser.yrieix-cisterne.fr/"} linktext={"Vous pouvez voir le site ici"}/>
                 </div>
             </div>
         </section>
@@ -60,11 +60,11 @@ export default function Home () {
                     <div className='bg-[#e8cdb3] rounded-lg max-w-[1170px] mt-4 p-4 mx-4'>
                         <div className='flex flex-col sm:flex-row items-center justify-center gap-8'>
                             <Texte description="Je m'appelle Yrieix Cisterne. J'ai 19 ans. Je suis étudiant en deuxième année de Bachelor Chef de Projets Digitaux. J'étudie à la Normandie Web School de Rouen. Passionné par le numérique, j'ai découvert le code au lycée. J'ai obtenu un Bac général en 2024. Mes spécialités étaient NSI et Mathématiques. J'ai appris Python et SQL au lycée. Ces langages m'ont donné une base solide en programmation."/>
-                            <img src="/stock_image/avatar.webp" alt="NWS logo" className="w-48 rounded-lg"/>
+                            <img src="/stock_image/avatar.webp" alt="NWS logo" width={650} height={654} loading="lazy" className="w-48 rounded-lg"/>
                         </div>
                         <div className='flex flex-col sm:flex-row-reverse justify-center gap-8 pt-4 items-center'>
                             <Texte description="En rejoignant la Normandie Web School, j'ai approfondi mes compétences en développement web. J'ai appris HTML, CSS, JavaScript, ainsi que des frameworks comme React et MySQL. J'ai également acquis des connaissances en gestion de projets digitaux, UX/UI design et marketing digital. Mon objectif est de devenir un développeur web compétent et polyvalent, capable de créer des sites web performants et attrayants."/>
-                            <img src="/stock_image/dev_web.webp" alt="Ligne de code" className="w-72 rounded-lg"/>
+                            <img src="/stock_image/dev_web.webp" alt="Ligne de code" width={300} height={168} loading="lazy" className="w-72 rounded-lg"/>
                         </div>
                     </div>
             </div>

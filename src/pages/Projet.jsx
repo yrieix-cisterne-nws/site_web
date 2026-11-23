@@ -19,10 +19,11 @@ export default function Projet () {
                 return <Projet_image
                 index={index} 
                 key={projet.id} 
-                id ={projet.id}
                 title={projet.title} 
                 description={projet.description} 
-                image={projet.image} 
+                image={projet.image}
+                width={projet.width}
+                height={projet.height}
                 alt={projet.altImage} 
                 link={projet.link} 
                 linktext={projet.linktext}

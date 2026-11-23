@@ -1,4 +1,4 @@
-export const Projethome = ({title, image, description, link, linktext}) => {
+export const Projethome = ({title, image, width, height, description, link, linktext}) => {
     return(
         <section className="max-w-[1170px] mx-auto rounded-lg p-4 md:p-5 bg-[#e8cdb3] mt-4 mb-4 m-4">
             <div className="flex flex-col sm:flex-row gap-4 justify-around items-center">
@@ -12,7 +12,7 @@ export const Projethome = ({title, image, description, link, linktext}) => {
                     </div>
                 </div>
                 <div className="flex items-center justify-center">
-                    <img src={image} alt={title} className="max-w-[300px] sm:max-w-[400px] max-h-[200px] sm:max-h-[270px] object-contain"/>
+                    <img src={image} alt={title} width={width} height={height} loading="lazy" className="max-w-[300px] sm:max-w-[400px] max-h-[200px] sm:max-h-[270px] object-contain"/>
                 </div>
             </div>
 

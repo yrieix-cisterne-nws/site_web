@@ -1,4 +1,4 @@
-export const Projet_image = ({index, id, title, image, alt, description, link, linktext}) => {
+export const Projet_image = ({index, title, image, width, height, alt, description, link, linktext}) => {
     return(
         <section className="max-w-[1170px] mx-auto rounded-lg p-4 md:p-5 bg-[#e8cdb3] mt-4 mb-4 m-4">
             <div className="flex flex-col sm:flex-row gap-4 justify-around">
@@ -12,7 +12,7 @@ export const Projet_image = ({index, id, title, image, alt, description, link, l
                     </div>
                 </div>
                 <div className="max-h-[300px] sm:max-h-[450px] overflow-auto w-full sm:w-auto">
-                    <img src={image} alt={alt} className="max-w-[300px] sm:max-w-[450px]"/>
+                    <img src={image} alt={alt} width={width} height={height} loading={index === 0 ? "eager" : "lazy"} className="max-w-[300px] sm:max-w-[450px]"/>
                 </div>
             </div>
 

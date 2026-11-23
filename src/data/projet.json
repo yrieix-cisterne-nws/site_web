@@ -12,6 +12,8 @@
         "title": "UI/UX Site web",
         "description":"Dans le cadre de l'école, j'ai dû créer un site web pour vendre un produit à base de miel, réalisé sur WordPress, j'ai donc cherché à faire une UI/UX de qualité.",
         "image":"/projet/mieloria.webp",
+        "width": 900,
+        "height": 983,
         "altImage":"Site Wordpress Mieloria",
         "visible": true
     },
@@ -22,6 +24,8 @@
         "link": "https://github.com/yrieix-cisterne-nws/eval_nodeJS",
         "linktext": "Vous pouvez voir le résultat sur mon Github",
         "image": "/projet/eval_js.webp",
+        "width": 900,
+        "height": 548,
         "altImage":"Méthode get API",
         "visible": true
     },
@@ -32,6 +36,8 @@
         "link": "https://github.com/yrieix-cisterne-nws/cours_JS",
         "linktext": "Vous pouvez voir le résultat sur mon Github",
         "image": "/projet/cours_js.webp",
+        "width": 900,
+        "height": 497,
         "altImage":"Méthode get API",
         "visible": true
     },
@@ -42,6 +48,8 @@
         "link": "https://owguesser.yrieix-cisterne.fr/",
         "linktext": "Site web en ligne à l'aide de docker",
         "image": "/projet/owguesser.webp",
+        "width": 900,
+        "height": 427,
         "altImage": "Image de OWGuesser",
         "visible": true
     },
@@ -52,6 +60,8 @@
         "link": "https://yrieix-cisterne-nws.github.io/Evaluation_todo_list/",
         "linktext": "Vous pouvez voir le résultat sur mon Github",
         "image": "/projet/todolist.webp",
+        "width": 659,
+        "height": 772,
         "altImage": "Timer fin de s17",
         "visible": true
     },
@@ -62,6 +72,8 @@
         "link": "https://github.com/yrieix-cisterne-nws/bot",
         "linktext": "Vous pouvez voir le résultat sur mon github",
         "image": "/projet/s17timer.webp",
+        "width": 900,
+        "height": 506,
         "altImage": "Timer fin de s17",
         "visible": true
     },
@@ -73,6 +85,8 @@
         "link": "https://github.com/yrieix-cisterne-nws/creerunnextjs",
         "linktext": "Vous pouvez voir le code de mon ancien site web sur github",
         "image": "/projet/sitewebv1.webp",
+        "width": 900,
+        "height": 826,
         "altImage": "Page d'accueil ancien site web",
         "visible": true
     },
@@ -83,6 +97,8 @@
         "link": "/projet/Maquette.zip",
         "linktext": "Maquette site web",
         "image": "/projet/maquettepc.webp",
+        "width": 900,
+        "height": 640,
         "altImage": "Maquette du site web",
         "visible": true
     },
@@ -93,6 +109,8 @@
         "link": "",
         "linktext": "",
         "image": "/projet/handisup_actu.webp",
+        "width": 616,
+        "height": 439,
         "altImage": "Page d'accueil du site Handisup",
         "visible": true
     },
@@ -103,6 +121,8 @@
         "link": "",
         "linktext": "",
         "image": "/projet/maquettefigma.webp",
+        "width": 389,
+        "height": 723,
         "altImage":"Maquette Figma",
         "visible": true
     },
@@ -113,6 +133,8 @@
         "link": "https://nino-rameau.github.io/normandie-blog-school/index.html",
         "linktext": "Vous pouvez consultez le site ici.",
         "image": "/projet/normandiebs.webp",
+        "width": 900,
+        "height": 438,
         "altImage":"Page Accueil Normandie Blog School",
         "visible": true
     },
@@ -123,6 +145,8 @@
         "link": "",
         "linktext": "",
         "image": "/projet/clubeco.webp",
+        "width": 900,
+        "height": 509,
         "altImage":"Logo pour club eco St.Sever",
         "visible": true
     },
@@ -133,6 +157,8 @@
         "link": "",
         "linktext": "",
         "image": "/projet/logoycbw.webp",
+        "width": 404,
+        "height": 612,
         "altImage":"Mon logo personnel",
         "visible": true
     },
@@ -143,6 +169,8 @@
         "link": "https://github.com/modzarlino/de",
         "linktext": "Vous pouvez voir le résultat sur mon Github.",
         "image": "/projet/des.webp",
+        "width": 804,
+        "height": 184,
         "altImage":"Dés produit aléatoirement",
         "visible": true
     }

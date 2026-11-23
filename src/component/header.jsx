@@ -15,7 +15,7 @@ export default function Navbar() {
             
             {/* Logo */}
             <div className="">
-              <Link to="/"><img src="/projet/logoycbw.webp" alt="Logo" className="w-10"/></Link>
+              <Link to="/"><img src="/projet/logoycbw.webp" alt="Logo" width={404} height={612} loading="eager" className="w-10"/></Link>
             </div>
 
             {/* Menu PC*/}
