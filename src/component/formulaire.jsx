@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Link } from 'react-router-dom';
 
 const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
@@ -33,6 +34,10 @@ export const ContactUs = () => {
       <input type="email" name="user_email" placeholder='Email' required className='bg-gray-200 w-[300px] p-1'/>
       <textarea name="message" required placeholder="Message" className='bg-gray-200 w-[300px] h-[75px] p-1'/>
       <input type="submit" value="Envoyer" className='bg-[#F2CC0F] hover:bg-[#8487BF] py-2 px-2 cursor-pointer transition-all duration-500 rounded-full'/>
+      <p className='text-xs w-[300px]'>
+        Vos données sont utilisées uniquement pour répondre à votre message.{' '}
+        <Link to="/mentions-legales" className='underline'>En savoir plus</Link>
+      </p>
     </form>
     </div>
   );

@@ -49,9 +49,42 @@ export default function Mentions () {
             </p>
           </div>
 
-          <div>
+          <div className="mb-2">
             <h2 className="text-xl">5. Données personnelles</h2>
-            <p>Ce site ne collecte aucune donnée personnelle et ne possède aucun cookie.</p>
+            <p>
+              <strong>Formulaire de contact.</strong> Les données saisies (nom, prénom, email, message)
+              sont collectées par Yrieix Cisterne, responsable du traitement, uniquement pour répondre
+              à votre demande. Ce traitement repose sur l’intérêt légitime à répondre aux messages reçus.
+            </p>
+            <p>
+              <strong>Destinataires.</strong> Les données sont transmises au service d’envoi d’emails
+              EmailJS et ne sont ni vendues ni utilisées à des fins commerciales.
+            </p>
+            <p>
+              <strong>Durée de conservation.</strong> Les messages sont conservés 12 mois au maximum
+              après le dernier échange.
+            </p>
+            <p>
+              <strong>Vos droits.</strong> Vous disposez d’un droit d’accès, de rectification, d’effacement,
+              de limitation et d’opposition en écrivant à ycisterne@normandiewebschool.fr. Vous pouvez
+              également introduire une réclamation auprès de la CNIL (cnil.fr).
+            </p>
+            <p>
+              <strong>Cookies et stockage local.</strong> Ce site n’utilise pas de cookies et n’enregistre
+              aucune information dans le stockage local de votre navigateur.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-xl">6. Hébergement</h2>
+            <p>Hébergeur : OVH SAS</p>
+            <p>Adresse : 2 rue Kellermann, 59100 Roubaix, France</p>
+            <p>
+              Site web :{" "}
+              <a href="https://www.ovhcloud.com/fr/" target="_blank" rel="noopener noreferrer" className="underline">
+                ovhcloud.com
+              </a>
+            </p>
           </div>
         </section>
       </main>

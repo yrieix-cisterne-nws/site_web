@@ -1,13 +1,11 @@
 import { useState } from 'react';
-import { Menu, X, Moon, Sun } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isDark, setIsDark] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
-  const toggleTheme = () => setIsDark(!isDark);
 
   return (
     <header className="sticky top-0 z-50 bg-white">
@@ -17,17 +15,17 @@ export default function Navbar() {
             
             {/* Logo */}
             <div className="">
-              <Link to="/"><img src="/projet/logoycbw.jpg" alt="Logo" className="w-10"/></Link>
+              <Link to="/"><img src="/projet/logoycbw.webp" alt="Logo" className="w-10"/></Link>
             </div>
 
             {/* Menu PC*/}
             <div className="hidden md:flex space-x-8">
-              <Link to="/" className={`${isDark ? 'hover:text-blue-400' : 'hover:text-blue-600'} transition`}>Accueil</Link>
-              <Link to="/projet" className={`${isDark ? 'hover:text-blue-400' : 'hover:text-blue-600'} transition`}>Projets</Link>
-              <Link to="/contact" className={`${isDark ? 'hover:text-blue-400' : 'hover:text-blue-600'} transition`}>Contact</Link>
+              <Link to="/" className="hover:text-blue-600 transition">Accueil</Link>
+              <Link to="/projet" className="hover:text-blue-600 transition">Projets</Link>
+              <Link to="/contact" className="hover:text-blue-600 transition">Contact</Link>
             </div>
 
-            {/* Boutons (Dark Mode + Menu Burger) */}
+            {/* Bouton Menu Burger */}
             <div className="flex items-center space-x-4">
               <button
                 onClick={toggleMenu}
@@ -44,10 +42,10 @@ export default function Navbar() {
 
           {/* Menu Mobile */}
           {isOpen && (
-            <div className={`md:hidden pb-4 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
-              <Link to="/" className={`block py-2 px-4 ${isDark ? 'hover:bg-gray-700' : 'hover:bg-gray-100'} transition`}> Accueil</Link>
-              <Link to="/projet" className={`block py-2 px-4 ${isDark ? 'hover:bg-gray-700' : 'hover:bg-gray-100'} transition`}> Projet</Link>
-              <Link to="/contact" className={`block py-2 px-4 ${isDark ? 'hover:bg-gray-700' : 'hover:bg-gray-100'} transition`}> Contact</Link>
+            <div className="md:hidden pb-4 bg-gray-50">
+              <Link to="/" className="block py-2 px-4 hover:bg-gray-100 transition"> Accueil</Link>
+              <Link to="/projet" className="block py-2 px-4 hover:bg-gray-100 transition"> Projet</Link>
+              <Link to="/contact" className="block py-2 px-4 hover:bg-gray-100 transition"> Contact</Link>
             </div>
           )}
         </div>
