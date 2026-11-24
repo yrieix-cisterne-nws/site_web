@@ -40,7 +40,6 @@ Ce portfolio a été conçu pour mettre en avant mon profil, mes expériences et
 - **React** : Framework principal pour la construction de l’interface.
 - **TailwindCSS** : Framework CSS utilitaire pour un design moderne et responsive.
 - **React Router DOM** : Navigation entre les pages.
-- **Swiper** : Carrousel pour la section projets.
 - **EmailJS** : Envoi d’emails via le formulaire de contact.
 
 ---
@@ -58,7 +57,7 @@ Ce portfolio a été conçu pour mettre en avant mon profil, mes expériences et
 1. **Cloner le dépôt :**
    ```sh
    git clone https://github.com/yrieix-cisterne-nws/site_web.git
-   cd creerrunnextjs
+   cd site_web
    ```
 
 2. **Installer les dépendances :**
@@ -71,29 +70,25 @@ Ce portfolio a été conçu pour mettre en avant mon profil, mes expériences et
    - react-dom
    - react-router-dom
    - tailwindcss
-   - swiper
    - emailjs-com
    - etc.
 
-3. **Configurer Tailwind CSS (si besoin) :**
-   - Le fichier `tailwind.config.js` est déjà prêt, mais vous pouvez l’adapter à vos besoins.
-
-4. **Configurer EmailJS :**
+3. **Configurer EmailJS :**
    - Renseignez vos clés API dans les fichiers concernés (`.env` ou directement dans le code selon votre organisation).
 
 ### Lancement en développement
 
 ```sh
-npm start
+npm run dev
 ```
-Le site sera accessible sur [http://localhost:3000](http://localhost:3000).
+Le site sera accessible sur [http://localhost:5173](http://localhost:5173).
 
 ### Compilation pour la production
 
 ```sh
 npm run build
 ```
-Les fichiers optimisés seront générés dans le dossier `build/`.
+Les fichiers optimisés seront générés dans le dossier `dist/`.
 
 ---
 

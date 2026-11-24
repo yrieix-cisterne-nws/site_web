@@ -59,8 +59,8 @@ export default function Home () {
                 </div>
                     <div className='bg-[#e8cdb3] rounded-lg max-w-[1170px] mt-4 p-4 mx-4'>
                         <div className='flex flex-col sm:flex-row items-center justify-center gap-8'>
-                            <Texte description="Je m'appelle Yrieix Cisterne. J'ai 19 ans. Je suis étudiant en deuxième année de Bachelor Chef de Projets Digitaux. J'étudie à la Normandie Web School de Rouen. Passionné par le numérique, j'ai découvert le code au lycée. J'ai obtenu un Bac général en 2024. Mes spécialités étaient NSI et Mathématiques. J'ai appris Python et SQL au lycée. Ces langages m'ont donné une base solide en programmation."/>
-                            <img src="/stock_image/avatar.webp" alt="NWS logo" width={650} height={654} loading="lazy" className="w-48 rounded-lg"/>
+                            <Texte description="Je m'appelle Yrieix Cisterne. J'ai 19 ans. Je suis étudiant en troisième année de Bachelor Chef de Projets Digitaux. J'étudie à la Normandie Web School de Rouen. Passionné par le numérique, j'ai découvert le code au lycée. J'ai obtenu un Bac général en 2024. Mes spécialités étaient NSI et Mathématiques. J'ai appris Python et SQL au lycée. Ces langages m'ont donné une base solide en programmation."/>
+                            <img src="/stock_image/avatar.webp" alt="Logo de la Normandie Web School" width={650} height={654} loading="lazy" className="w-48 rounded-lg"/>
                         </div>
                         <div className='flex flex-col sm:flex-row-reverse justify-center gap-8 pt-4 items-center'>
                             <Texte description="En rejoignant la Normandie Web School, j'ai approfondi mes compétences en développement web. J'ai appris HTML, CSS, JavaScript, ainsi que des frameworks comme React et MySQL. J'ai également acquis des connaissances en gestion de projets digitaux, UX/UI design et marketing digital. Mon objectif est de devenir un développeur web compétent et polyvalent, capable de créer des sites web performants et attrayants."/>
