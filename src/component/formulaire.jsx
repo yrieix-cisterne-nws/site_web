@@ -35,14 +35,23 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className='flex flex-col gap-4'>
+    <div className='flex flex-col gap-4 flex-1 min-w-0'>
     <h1 className='text-3xl'>Formulaire de contact</h1>
     <form ref={form} onSubmit={sendEmail} onChange={clearResult} aria-busy={isLoading} className='flex flex-col gap-2 rounded-lg w-full max-w-[550px]'>
-      <input type="text" name="user_name" placeholder='Prénom et nom' required className='bg-gray-200 w-[300px] p-1'/>
-      <input type="email" name="user_email" placeholder='Email' required className='bg-gray-200 w-[300px] p-1'/>
-      <textarea name="message" required placeholder="Message" className='bg-gray-200 w-[300px] h-[75px] p-1'/>
+      <div className='flex flex-col gap-1'>
+        <label htmlFor="user_name">Prénom et nom</label>
+        <input type="text" id="user_name" name="user_name" autoComplete="name" required className='bg-gray-200 w-full p-1'/>
+      </div>
+      <div className='flex flex-col gap-1'>
+        <label htmlFor="user_email">Email</label>
+        <input type="email" id="user_email" name="user_email" autoComplete="email" required className='bg-gray-200 w-full p-1'/>
+      </div>
+      <div className='flex flex-col gap-1'>
+        <label htmlFor="message">Message</label>
+        <textarea id="message" name="message" required className='bg-gray-200 w-full min-h-[75px] p-1'/>
+      </div>
       <input type="submit" value={isLoading ? 'Envoi en cours…' : 'Envoyer'} disabled={isLoading} className='bg-[#F2CC0F] hover:bg-[#8487BF] py-2 px-2 cursor-pointer transition-all duration-500 rounded-full disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-[#F2CC0F]'/>
-      <div role="status" aria-live="polite" className='text-sm w-[300px]'>
+      <div role="status" aria-live="polite" className='text-sm'>
         {status === 'success' && (
           <p className='text-green-800'>Votre message a bien été envoyé. Je vous répondrai rapidement.</p>
         )}
@@ -53,7 +62,7 @@ export const ContactUs = () => {
           </p>
         )}
       </div>
-      <p className='text-xs w-[300px]'>
+      <p className='text-xs'>
         Vos données sont utilisées uniquement pour répondre à votre message.{' '}
         <Link to="/mentions-legales" className='underline'>En savoir plus</Link>
       </p>

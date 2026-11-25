@@ -6,6 +6,7 @@ import Projet from "./pages/Projet";
 import Contact from "./pages/Contact";
 import Layout from "./component/layout";
 import Mentions from "./pages/Mentions";
+import NotFound from "./pages/NotFound";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/projet" element={<Projet />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/mentions-legales" element={<Mentions />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
     </Router>
