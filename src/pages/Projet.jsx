@@ -11,7 +11,7 @@ export default function Projet () {
                 keywords="Yrieix Cisterne, Développeur web, Développeur React, Réalisations web, Portfolio projets, Applications web React, Projets front-end, API REST integration"
                 canonical="https://yrieix-cisterne.fr/projet"
             />
-        <div className='mx-auto bg-[#FAFAFA]'>
+        <div className='mx-auto bg-background'>
             <h1 className='sr-only'>Mes projets</h1>
             {data
             .filter((projet) => projet.visible)

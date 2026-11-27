@@ -10,7 +10,7 @@ export default function Mentions () {
             canonical="https://yrieix-cisterne.fr/mentions-legales"
           />
     <div>
-      <main className="max-w-[850px] mx-auto rounded-lg p-4 md:p-5 bg-[#e8cdb3] mt-4 mb-4 m-4">
+      <main className="max-w-[850px] mx-auto rounded-lg p-4 md:p-5 bg-surface mt-4 mb-4 m-4">
         <h1 className="sr-only">Mentions légales</h1>
         <section>
           <div className="mb-2">

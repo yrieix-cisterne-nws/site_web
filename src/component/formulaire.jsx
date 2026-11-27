@@ -50,7 +50,7 @@ export const ContactUs = () => {
         <label htmlFor="message">Message</label>
         <textarea id="message" name="message" required className='bg-gray-200 w-full min-h-[75px] p-1'/>
       </div>
-      <input type="submit" value={isLoading ? 'Envoi en cours…' : 'Envoyer'} disabled={isLoading} className='bg-[#F2CC0F] hover:bg-[#8487BF] py-2 px-2 cursor-pointer transition-all duration-500 rounded-full disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-[#F2CC0F]'/>
+      <input type="submit" value={isLoading ? 'Envoi en cours…' : 'Envoyer'} disabled={isLoading} className='bg-primary hover:bg-accent py-2 px-2 cursor-pointer transition-all duration-500 rounded-full disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-primary'/>
       <div role="status" aria-live="polite" className='text-sm'>
         {status === 'success' && (
           <p className='text-green-800'>Votre message a bien été envoyé. Je vous répondrai rapidement.</p>

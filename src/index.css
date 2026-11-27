@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+  --color-background: #FAFAFA; /* fond des pages */
+  --color-surface: #e8cdb3;    /* cartes et blocs beiges */
+  --color-primary: #F2CC0F;    /* boutons (jaune) */
+  --color-accent: #8487BF;     /* survol des boutons (lavande) */
+}
