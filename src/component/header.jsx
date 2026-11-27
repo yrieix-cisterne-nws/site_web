@@ -6,6 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
+  const closeMenu = () => setIsOpen(false);
 
   return (
     <header className="sticky top-0 z-50 bg-white">
@@ -15,7 +16,7 @@ export default function Navbar() {
             
             {/* Logo */}
             <div className="">
-              <Link to="/"><img src="/projet/logoycbw.webp" alt="Logo" width={404} height={612} loading="eager" className="w-10"/></Link>
+              <Link to="/"><img src="/projet/logoycbw.webp" alt="Yrieix Cisterne - Accueil" width={404} height={612} loading="eager" className="w-10"/></Link>
             </div>
 
             {/* Menu PC*/}
@@ -43,9 +44,9 @@ export default function Navbar() {
           {/* Menu Mobile */}
           {isOpen && (
             <div className="md:hidden pb-4 bg-gray-50">
-              <Link to="/" className="block py-2 px-4 hover:bg-gray-100 transition"> Accueil</Link>
-              <Link to="/projet" className="block py-2 px-4 hover:bg-gray-100 transition"> Projet</Link>
-              <Link to="/contact" className="block py-2 px-4 hover:bg-gray-100 transition"> Contact</Link>
+              <Link to="/" onClick={closeMenu} className="block py-2 px-4 hover:bg-gray-100 transition"> Accueil</Link>
+              <Link to="/projet" onClick={closeMenu} className="block py-2 px-4 hover:bg-gray-100 transition"> Projets</Link>
+              <Link to="/contact" onClick={closeMenu} className="block py-2 px-4 hover:bg-gray-100 transition"> Contact</Link>
             </div>
           )}
         </div>

@@ -21,8 +21,8 @@ export default function Home () {
                     <img src="/photo_presentation.webp" alt="Photo de Yrieix Cisterne" width={512} height={682} loading="eager" className="rounded-full w-32 sm:w-40 md:w-48 lg:w-56 xl:w-64"/>
                 </div>
                 <div className="flex flex-row gap-8">
-                <a href="https://www.linkedin.com/in/yrieix-cisterne-96963b332/" target="_blank" rel="noopener noreferrer"><Linkedin size={24}/></a>
-                <a href="https://github.com/yrieix-cisterne-nws" target="_blank" rel="noopener noreferrer"><Github size={24}/></a>
+                <a href="https://www.linkedin.com/in/yrieix-cisterne" target="_blank" rel="noopener noreferrer" aria-label="Linkedin (nouvelle onglet)"><Linkedin size={24}/></a>
+                <a href="https://github.com/yrieix-cisterne-nws" target="_blank" rel="noopener noreferrer" aria-label="Github (nouvelle onglet)"><Github size={24}/></a>
             </div>
                 <div className='flex flex-col justify-center items-center'>
                     <h1 className='text-3xl'>Yrieix Cisterne</h1>
