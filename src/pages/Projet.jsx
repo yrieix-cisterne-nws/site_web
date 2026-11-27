@@ -1,4 +1,4 @@
-import { Projet_image } from '../component/projet';
+import { ProjetCard } from '../component/projetcard';
 import data from '../data/projet.json';
 import SEO from "../component/seo";
 
@@ -16,9 +16,9 @@ export default function Projet () {
             {data
             .filter((projet) => projet.visible)
             .map((projet, index) => {
-                return <Projet_image
-                index={index} 
-                key={projet.id} 
+                return <ProjetCard
+                eager={index === 0}
+                key={projet.id}
                 title={projet.title} 
                 description={projet.description} 
                 image={projet.image}
